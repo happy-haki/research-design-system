@@ -6,6 +6,7 @@ describe("createCssVariables", () => {
     const css = createCssVariables();
 
     expect(css).toContain(":root {");
+    expect(css).toContain(".dark {");
     expect(css).toContain("--rds-color-background");
     expect(css).toContain("--rds-space-md");
   });

@@ -1,4 +1,4 @@
-import { tokens } from "./tokens";
+import { darkTokens, lightTokens } from "./tokens";
 import type { DtcgGroup, DtcgToken } from "./types";
 
 const isToken = (value: DtcgGroup | DtcgToken): value is DtcgToken => {
@@ -23,9 +23,13 @@ const flattenTokens = (group: DtcgGroup, path: string[] = []): Array<[string, st
 };
 
 export const createCssVariables = (): string => {
-  const declarations = flattenTokens(tokens)
+  const rootDeclarations = flattenTokens(lightTokens)
     .map(([name, value]) => `  ${name}: ${value};`)
     .join("\n");
 
-  return `:root {\n${declarations}\n}`;
+  const darkDeclarations = flattenTokens(darkTokens)
+    .map(([name, value]) => `  ${name}: ${value};`)
+    .join("\n");
+
+  return `:root {\n${rootDeclarations}\n}\n\n.dark {\n${darkDeclarations}\n}`;
 };
