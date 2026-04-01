@@ -24,7 +24,7 @@ This document consolidates findings from requested reference repositories and st
 
 3. **Monorepo package boundaries**
    - Separate tokens, components, and shared config packages.
-   - Use workspace orchestration (`pnpm`, `turbo`) for fast parallel execution.
+   - Use workspace orchestration for fast parallel execution.
 
 4. **Variant-driven APIs**
    - Use predictable variant systems for component state and size.

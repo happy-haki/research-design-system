@@ -2,8 +2,6 @@
 
 ## Monorepo topology
 
-- Package manager: **pnpm**
-- Task orchestrator: **Turborepo**
 - Workspace scope: `packages/*`
 
 ## Package boundaries
@@ -38,9 +36,9 @@
 
 ## Quality gates
 
-- Type safety: `pnpm typecheck`
-- Unit tests: `pnpm test`
-- Package build verification: `pnpm build`
+- Type safety: `typecheck`
+- Unit tests: `test`
+- Package build verification: `build`
 - CI enforces the same gates on pull requests.
 
 ## Near-term expansion

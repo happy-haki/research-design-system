@@ -1,6 +1,6 @@
 # research-design-system
 
-Research-driven design system monorepo built with **pnpm** and **Turborepo**.
+Research-driven design system monorepo.
 
 ## Goals
 
@@ -33,9 +33,5 @@ import "@research-ds/ui/styles.css";
 
 ## Commands
 
-```bash
-pnpm install
-pnpm build
-pnpm typecheck
-pnpm test
-```
+- Install dependencies with the repository's configured package manager.
+- Run workspace scripts for `build`, `typecheck`, and `test`.
