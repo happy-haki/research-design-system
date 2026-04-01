@@ -1,2 +1,3 @@
-export { tokens } from "./tokens";
-export type { DtcgGroup, DtcgToken, DtcgTokenType } from "./types";
+export { darkTokens, lightTokens, tokens } from "./tokens.js";
+export { createCssVariables } from "./css.js";
+export type { DtcgGroup, DtcgToken, DtcgTokenType } from "./types.js";

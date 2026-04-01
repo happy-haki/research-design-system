@@ -2,6 +2,10 @@
   color-scheme: light;
 }
 
+.dark {
+  color-scheme: dark;
+}
+
 .rds-surface {
   background: var(--rds-color-background);
   color: var(--rds-color-foreground);

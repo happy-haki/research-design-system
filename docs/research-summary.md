@@ -59,10 +59,28 @@ This document consolidates findings from requested reference repositories and st
 - Treat docs as a durable decision log for visual language and constraints.
 - Keep the system coherent by writing and reusing explicit style principles.
 
+### sipe-team/side
+
+- Monorepo with package + docs/storybook orientation.
+- TypeScript-first component system with testing and release workflows.
+- Strong signal for combining component docs, tests, and release discipline.
+
+### cloudflare/kumo
+
+- Accessible component system built on Base UI.
+- Offers both top-level and granular imports, balancing DX and tree-shaking.
+- Pairs component library development with docs and CLI ergonomics.
+
+### daangn/seed-design
+
+- Very large package ecosystem across definitions, base CSS, headless/react packages, and integrations.
+- Clear separation between foundational definitions and framework-specific delivery.
+- Confirms the value of explicit package boundaries for long-term scaling.
+
 ## Initial Implementation Decisions
 
 - Token schema follows DTCG-style fields (`$value`, `$type`, optional metadata).
-- CSS variables are generated from tokens as `--rds-*` names.
+- CSS variables are generated from tokens as `--rds-*` names with `:root` + `.dark` layers.
 - UI components expose `data-slot` and typed variant props.
 - Semantic color + spacing + radius tokens are defined before component expansion.
 
