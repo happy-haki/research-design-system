@@ -10,6 +10,17 @@
    - class 기반 또는 data-attribute 기반
 4. 테마 회귀 테스트(시각 + 접근성)를 설정한다.
 
+## 사전조건
+- 4단계 토큰 빌드 파이프라인 안정화
+
+## 완료 조건(Definition of Done)
+- 신규 테마 추가 시 컴포넌트 API 변경 없이 적용 가능
+- semantic token-only 규칙이 lint/리뷰에서 강제
+
+## 검증 지표
+- Leading: semantic-only 준수율, 테마 회귀 테스트 통과율
+- Lagging: 테마 도입 시 컴포넌트 수정 파일 수
+
 ## 산출물
 - semantic token 맵
 - theme switching 가이드
@@ -18,3 +29,5 @@
 ## 참고
 - https://github.com/cloudflare/kumo
 - https://github.com/daangn/seed-design
+- https://carbondesignsystem.com/
+- https://polaris.shopify.com/
