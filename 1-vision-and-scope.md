@@ -18,6 +18,18 @@
 3. 성공 지표를 수치로 적는다.
    - 도입 팀 수, 컴포넌트 재사용률, 릴리즈 주기, 성능 예산 준수율
 
+## 사전조건
+- 디자인 시스템 오너(PO/Tech Lead) 1명 이상 지정
+- 1차 소비 팀(파일럿 팀) 후보 확정
+
+## 완료 조건(Definition of Done)
+- 헌장(원칙/범위/비범위) 승인 완료
+- P0 컴포넌트 목록과 KPI 기준선(baseline) 문서화 완료
+
+## 검증 지표
+- Leading: 헌장 승인 리드타임, 범위 변경 요청 건수
+- Lagging: 분기별 재작업률, 팀별 도입률
+
 ## 산출물
 - 디자인 시스템 헌장(1페이지)
 - 우선순위 컴포넌트 목록
@@ -26,3 +38,5 @@
 ## 참고
 - https://github.com/cloudflare/kumo
 - https://github.com/Dammyjay93/interface-design
+- https://github.com/primer/primitives
+- https://atlassian.design/

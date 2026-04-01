@@ -15,6 +15,18 @@
    - 하드코딩 색상/간격
    - 의미 없는 축약 이름
 
+## 사전조건
+- 2단계 거버넌스 규칙 적용
+- 토큰 도메인(색상/타이포/간격/모션/반경) 합의
+
+## 완료 조건(Definition of Done)
+- DTCG 기반 스키마 검증 통과
+- primitive/semantic/component 토큰 네이밍 규칙 린트 정의
+
+## 검증 지표
+- Leading: 스키마 유효 토큰 비율, 네이밍 위반 건수
+- Lagging: 테마/컴포넌트 간 토큰 재정의 충돌 건수
+
 ## 산출물
 - token schema 문서
 - token naming 규칙서
@@ -22,3 +34,5 @@
 
 ## 참고
 - https://github.com/design-tokens/community-group
+- https://github.com/primer/primitives
+- https://github.com/adobe/spectrum-design-data
