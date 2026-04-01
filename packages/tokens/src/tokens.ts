@@ -1,4 +1,4 @@
-import type { DtcgGroup } from "./types";
+import type { DtcgGroup } from "./types.js";
 
 export const lightTokens: DtcgGroup = {
   color: {

@@ -16,6 +16,13 @@ Research-driven design system monorepo built with **pnpm** and **Turborepo**.
 - `packages/config`: shared configuration artifacts.
 - `docs`: research outcomes and implementation decisions.
 
+## Token usage
+
+```ts
+import "@research-ds/tokens/tokens.css";
+import "@research-ds/ui/styles.css";
+```
+
 ## Commands
 
 ```bash

@@ -1,5 +1,5 @@
-import { darkTokens, lightTokens } from "./tokens";
-import type { DtcgGroup, DtcgToken } from "./types";
+import { darkTokens, lightTokens } from "./tokens.js";
+import type { DtcgGroup, DtcgToken } from "./types.js";
 
 const isToken = (value: DtcgGroup | DtcgToken): value is DtcgToken => {
   return typeof value === "object" && value !== null && "$value" in value;

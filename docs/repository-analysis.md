@@ -14,5 +14,5 @@ This matrix tracks extracted patterns and how they map into this repository.
 
 ## Notes
 
-- This matrix is based on publicly visible repository metadata/README-level signals from each requested source.
-- Deeper source-level pattern extraction (specific file-level heuristics) can be appended as the next research iteration.
+- Detailed per-source notes live in `docs/research/*.md`.
+- This matrix captures the implementation mapping after baseline adoption.
