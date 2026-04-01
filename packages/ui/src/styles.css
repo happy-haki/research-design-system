@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light;
+}
+
+.rds-surface {
+  background: var(--rds-color-background);
+  color: var(--rds-color-foreground);
+}
+
+.rds-card {
+  background: var(--rds-color-card);
+  border: 1px solid var(--rds-color-border);
+  border-radius: var(--rds-radius-md);
+  padding: var(--rds-space-lg);
+}
+
+.rds-button {
+  appearance: none;
+  border: 1px solid transparent;
+  border-radius: var(--rds-radius-md);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  transition: all 160ms ease;
+}
+
+.rds-button:focus-visible {
+  outline: 2px solid var(--rds-color-primary);
+  outline-offset: 2px;
+}
+
+.rds-button--primary {
+  background: var(--rds-color-primary);
+  color: var(--rds-color-primaryForeground);
+}
+
+.rds-button--secondary {
+  background: var(--rds-color-muted);
+  color: var(--rds-color-foreground);
+}
+
+.rds-button--ghost {
+  background: transparent;
+  border-color: var(--rds-color-border);
+  color: var(--rds-color-foreground);
+}
+
+.rds-button--sm {
+  height: 2rem;
+  padding: 0 var(--rds-space-sm);
+}
+
+.rds-button--md {
+  height: 2.5rem;
+  padding: 0 var(--rds-space-md);
+}
+
+.rds-button--lg {
+  height: 3rem;
+  padding: 0 var(--rds-space-lg);
+}
