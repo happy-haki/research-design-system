@@ -22,7 +22,14 @@ Research-driven design system monorepo.
 - Quick start: `docs/quick-start.md`
 - Source analysis matrix: `docs/repository-analysis.md`
 - Follow-up roadmap: `docs/follow-up-roadmap.md`
+- Performance-focused report: `docs/high-performance-design-system-report.md`
+- Performance governance checklist: `docs/performance-governance-checklist.md`
 - Per-source research notes: `docs/research/*`
+
+## Skills for agentic execution
+
+- High-performance DS skill: `.claude/skills/high-performance-design-system/SKILL.md`
+- Skills index: `.claude/skills/README.md`
 
 ## Token usage
 
