@@ -33,3 +33,10 @@
 - Add form and overlay primitives.
 - Add docs app and playground.
 - Add visual regression and accessibility checks.
+
+## 7) Follow-up research integration rule
+
+- Every follow-up research cycle must produce:
+  1. Updated source notes in `docs/research/*`
+  2. An implementation delta (code or verification artifact)
+  3. A roadmap update in `docs/follow-up-roadmap.md`

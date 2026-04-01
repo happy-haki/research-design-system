@@ -16,6 +16,14 @@ Research-driven design system monorepo built with **pnpm** and **Turborepo**.
 - `packages/config`: shared configuration artifacts.
 - `docs`: research outcomes and implementation decisions.
 
+## Documentation map
+
+- Architecture: `docs/architecture.md`
+- Quick start: `docs/quick-start.md`
+- Source analysis matrix: `docs/repository-analysis.md`
+- Follow-up roadmap: `docs/follow-up-roadmap.md`
+- Per-source research notes: `docs/research/*`
+
 ## Token usage
 
 ```ts
