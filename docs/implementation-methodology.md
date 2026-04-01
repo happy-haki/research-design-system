@@ -26,7 +26,7 @@
 
 - Typecheck each package and workspace.
 - Run tests for token and utility behavior.
-- Build all packages via turborepo pipeline.
+- Build all packages through the workspace pipeline.
 
 ## 6) Scaling roadmap
 

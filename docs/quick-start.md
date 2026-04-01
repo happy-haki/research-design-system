@@ -2,17 +2,15 @@
 
 ## 1) Install dependencies
 
-```bash
-pnpm install
-```
+Install dependencies with the repository's configured package manager.
 
 ## 2) Validate workspace
 
-```bash
-pnpm typecheck
-pnpm test
-pnpm build
-```
+Run validation scripts in this order:
+
+1. `typecheck`
+2. `test`
+3. `build`
 
 ## 3) Consume tokens + UI styles
 

@@ -13,7 +13,7 @@
 ## Pull Request requirements
 
 - Include a concise summary and reasoning.
-- Include validation evidence (`pnpm typecheck`, `pnpm test`, `pnpm build`).
+- Include validation evidence (`typecheck`, `test`, `build`).
 - Keep PR scope coherent (single concern where possible).
 
 ## Recommended GitHub settings
